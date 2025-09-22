@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { useQuery, keepPreviousData } from "@tanstack/react-query";
-import { fetchNotes, type FetchNotesResponse } from "../services/noteService";
+import {
+  fetchNotes,
+  type FetchNotesResponse,
+} from "../../services/noteService";
 import NoteList from "../NoteList/NoteList";
 import SearchBox from "../SearchBox/SearchBox";
 import Pagination from "../Pagination/Pagination";
